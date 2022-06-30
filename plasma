@@ -1,0 +1,5 @@
+Opening  KRunner with Windows/Meta key{
+
+kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.kglobalaccel,/component/krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch"
+qdbus org.kde.KWin /KWin reconfigure}
+

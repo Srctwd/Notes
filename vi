@@ -1,0 +1,4 @@
+.vimrc
+set nocompatible
+set bckspace=2
+// or just update vim //
