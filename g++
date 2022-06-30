@@ -1,1 +1,4 @@
+g++ -I {include path} -L {lib path} -o {file} {file.cpp} -lmingw32 -lSDL2main -lSDL2
+g++ -I src/include -L src/lib -o renderer/renderer renderer/renderer.cpp -lmingw32 -lSDL2main -lSDL2
 
+-lSDL2main and -lSDL2 links SDL2 libraries
